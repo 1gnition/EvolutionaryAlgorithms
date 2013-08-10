@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for f in Crosser.java CustomizedLevel.java Fitness.java Ground.java Mutator.java Platforms.java Selector.java
+do
+   cat $f > temp
+   cat t > $f
+   cat temp >> $f
+done
+
